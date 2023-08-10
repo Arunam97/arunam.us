@@ -1,7 +1,14 @@
-@import "primeng/resources/primeng.css";
-@import "primeicons/primeicons.css";
+@font-face {
+  font-family: "Raleway";
+  src: url('assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
 
-body {
+@font-face {
+  font-family: "Lusitana";
+  src: url('assets/fonts/Lusitana/Lusitana-Regular.ttf');
+}
+
+* {
   padding: 0;
   margin: 0;
 }
