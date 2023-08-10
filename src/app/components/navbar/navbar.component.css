@@ -9,6 +9,7 @@ Media query for screen size LESS THAN 600px
 
 @media all and (max-width: 600px) {
   nav {
+    background-color: #EDEDED;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,6 +44,7 @@ Media query for screen size GREATER THAN 600px
 
 @media all and (min-width: 600px) {
   nav {
+    background-color: #EDEDED;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

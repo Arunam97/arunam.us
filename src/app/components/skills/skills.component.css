@@ -10,6 +10,7 @@ Media query for screen size LESS THAN 600px
 @media all and (max-width: 600px) {
   #main {
     margin: 2vw;
+    background-color: #EDEDED;
   }
 
   h1 {
@@ -70,6 +71,7 @@ Media query for screen size GREATER THAN 600px
 @media all and (min-width: 600px) {
   #main {
     margin: 2vw 5vw 2vw 5vw;
+    background-color: #EDEDED;
   }
 
   h1 {

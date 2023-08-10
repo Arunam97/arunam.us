@@ -10,6 +10,7 @@ Media query for screen size LESS THAN 600px
 @media all and (max-width: 600px) {
   #main {
     margin: 2vw;
+    background-color: #EDEDED;
   }
 
   h1 {
@@ -59,10 +60,16 @@ Media query for screen size LESS THAN 600px
     letter-spacing: 0.15vw;
   }
 
-  span {
+  #name {
+    color: red;
+    font-weight: bold;
+  }
+
+  #welcome-span {
     font-size: 1em;
     font-style: italic;
   }
+
   #links {
     display: flex;
     flex-direction: row;
@@ -86,6 +93,7 @@ Media query for screen size GREATER THAN 600px
 @media all and (min-width: 600px) {
   #main {
     margin: 2vw 5vw 2vw 5vw;
+    background-color: #EDEDED;
   }
 
   h1 {
@@ -136,7 +144,12 @@ Media query for screen size GREATER THAN 600px
     letter-spacing: 0.1vw;
   }
 
-  span {
+  #name {
+    color: red;
+    font-weight: bold;
+  }
+
+  #welcome-span {
     font-size: 1em;
     font-style: italic;
   }

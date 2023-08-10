@@ -10,6 +10,7 @@ Media query for screen size LESS THAN 600px
 @media all and (max-width: 600px) {
   #main {
     margin: 2vw;
+    background-color: #EDEDED;
   }
 
   h1 {
@@ -87,6 +88,7 @@ Media query for screen size GREATER THAN 600px
 @media all and (min-width: 600px) {
   #main {
     margin: 2vw 10vw 2vw 10vw;
+    background-color: #EDEDED;
   }
 
   h1 {
@@ -150,9 +152,9 @@ Media query for screen size GREATER THAN 600px
   }
 
   .skills-learned {
-    margin: 1vw 2vw 2vw 2vw;
+    margin: 0vw 2vw 2vw 2vw;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     letter-spacing: 0.1vw;
   }
 }
