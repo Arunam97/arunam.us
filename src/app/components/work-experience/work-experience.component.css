@@ -70,7 +70,7 @@ Media query for screen size LESS THAN 600px
   }
 
   .work-description li {
-    margin: 2vw;
+    margin: 2vw 2vw 2vw 4vw;
   }
 
   .skills-learned {

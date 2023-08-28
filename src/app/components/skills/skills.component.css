@@ -46,6 +46,7 @@ Media query for screen size LESS THAN 600px
     font-size: 1.25em;
     letter-spacing: 0.25vw;
     text-decoration: underline 0.5vw;
+    text-align: center;
   }
 
   .list {
