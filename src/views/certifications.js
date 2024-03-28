@@ -15,6 +15,7 @@ export const Certifications = () => {
         }}
       >
         <Link
+          sx={{ width: "20rem" }}
           href="https://www.credly.com/badges/602f8887-82dd-4c3f-9bf9-0f5c7a563af2"
           target="_blank"
         >

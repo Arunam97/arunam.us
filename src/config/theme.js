@@ -10,12 +10,11 @@ export const lightTheme = createTheme({
       marginBottom: "1rem"
     },
     body1: {
-      fontSize: "1.25rem",
+      fontSize: "1.2rem",
       fontWeight: "400"
     },
     highlight: {
       fontFamily: "Roboto, Arial, sans-serif",
-      fontWeight: "400",
       color: "blue"
     },
     resume: {
@@ -39,7 +38,8 @@ export const lightTheme = createTheme({
     },
     certificationTitle: {
       fontFamily: "Roboto, Arial, sans-serif",
-      fontSize: "1.25rem"
+      fontSize: "1.25rem",
+      fontWeight: "500"
     },
     certificationCredlyLink: {
       fontFamily: "Roboto, Arial, sans-serif",
@@ -53,8 +53,51 @@ export const lightTheme = createTheme({
     },
     skillHeading: {
       fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.25rem",
+      fontWeight: "500"
+    },
+    companyName: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: "500"
+    },
+    companyDuration: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.1rem",
+      fontStyle: "italic",
+      color: "gray",
+      fontWeight: "500"
+    },
+    projectName: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.25rem"
+    },
+    projectCompanyName: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.2rem",
       fontWeight: "500",
       color: "red"
+    },
+    projectDuration: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.1rem",
+      fontStyle: "italic",
+      color: "gray"
+    },
+    projectRole: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.1rem",
+      fontStyle: "italic"
+    },
+    projectRoleName: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1.1rem",
+      fontWeight: "500",
+      color: "green"
+    },
+    projectTechStack: {
+      fontFamily: "Roboto, Arial, sans-serif",
+      fontSize: "1rem"
     }
   }
 });
