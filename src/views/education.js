@@ -17,7 +17,7 @@ export const Education = () => {
         <Typography variant="degree">
           Bachelor of Science in Computer Science
         </Typography>
-        <Typography variant="gradDate">Graduated: May 2022</Typography>
+        <Typography variant="dateRange">Graduated: May 2022</Typography>
       </Box>
     </Card>
   );

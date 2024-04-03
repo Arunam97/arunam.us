@@ -3,7 +3,7 @@ import arunam from "../images/arunam.jpg";
 
 export const AboutMe = () => {
   return (
-    <Card sx={{ margin: "2rem", padding: "2rem" }}>
+    <Card>
       <Typography variant="h1" sx={{ textAlign: "center" }}>
         About Me
       </Typography>
@@ -70,7 +70,7 @@ export const AboutMe = () => {
             sx={{
               width: "min(15rem, 40vw)",
               height: "min(15rem, 40vw)",
-              border: "solid black",
+              border: "2px solid black",
               margin: "2rem"
             }}
           />
@@ -80,13 +80,14 @@ export const AboutMe = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            border: "solid black",
+            border: "2px solid black",
             borderRadius: "2rem",
             padding: "1rem",
             marginTop: "1rem"
           }}
           href="https://drive.google.com/file/d/1Jb3RCmwxwsWuuBvdw38_TJDJXSWkwMUl/view"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <Typography variant="resume">View my Resume</Typography>
         </Link>

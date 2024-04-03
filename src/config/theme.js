@@ -2,12 +2,25 @@ import { createTheme } from "@mui/material/styles";
 
 // Light Theme
 export const lightTheme = createTheme({
+  components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: "4rem",
+          border: "1px solid black",
+          margin: "2rem",
+          padding: "2rem"
+        }
+      }
+    }
+  },
   typography: {
     fontFamily: "Roboto, Arial, sans-serif",
     h1: {
       fontSize: "2rem",
       fontWeight: "500",
-      marginBottom: "1rem"
+      marginBottom: "1rem",
+      textAlign: "center"
     },
     body1: {
       fontSize: "1.2rem",
@@ -31,10 +44,11 @@ export const lightTheme = createTheme({
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.1rem"
     },
-    gradDate: {
+    dateRange: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1rem",
-      fontStyle: "italic"
+      fontStyle: "italic",
+      color: "gray"
     },
     certificationTitle: {
       fontFamily: "Roboto, Arial, sans-serif",
@@ -46,11 +60,6 @@ export const lightTheme = createTheme({
       fontSize: "1.1rem",
       textDecoration: "underline"
     },
-    certificationExpiry: {
-      fontFamily: "Roboto, Arial, sans-serif",
-      fontSize: "1rem",
-      fontStyle: "italic"
-    },
     skillHeading: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.25rem",
@@ -61,39 +70,26 @@ export const lightTheme = createTheme({
       fontSize: "1.5rem",
       fontWeight: "500"
     },
-    companyDuration: {
-      fontFamily: "Roboto, Arial, sans-serif",
-      fontSize: "1.1rem",
-      fontStyle: "italic",
-      color: "gray",
-      fontWeight: "500"
-    },
     projectName: {
       fontFamily: "Roboto, Arial, sans-serif",
-      fontSize: "1.25rem"
+      fontSize: "1.25rem",
+      color: "gray"
     },
     projectCompanyName: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.2rem",
-      fontWeight: "500",
       color: "red"
     },
-    projectDuration: {
+    projectRole: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.1rem",
       fontStyle: "italic",
       color: "gray"
     },
-    projectRole: {
-      fontFamily: "Roboto, Arial, sans-serif",
-      fontSize: "1.1rem",
-      fontStyle: "italic"
-    },
     projectRoleName: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.1rem",
-      fontWeight: "500",
-      color: "green"
+      color: "blue"
     },
     projectTechStack: {
       fontFamily: "Roboto, Arial, sans-serif",

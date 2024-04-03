@@ -2,7 +2,7 @@ import { Typography, Card } from "@mui/material";
 
 export const Skills = () => {
   return (
-    <Card sx={{ margin: "2rem", padding: "2rem" }}>
+    <Card>
       <Typography variant="h1">Skills</Typography>
       <Typography variant="body1" sx={{ marginBottom: "0.25rem" }}>
         <Typography variant="skillHeading">Front-End Development:</Typography>{" "}
