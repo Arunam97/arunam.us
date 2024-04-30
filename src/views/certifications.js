@@ -21,7 +21,7 @@ export const Certifications = () => {
         >
           <Typography variant="certificationCredlyLink">Credly Link</Typography>
         </Link>
-        <Typography variant="dateRange">
+        <Typography variant="lightItalic">
           Earned: November 2023 | Expires: November 2026
         </Typography>
       </Box>

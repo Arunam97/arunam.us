@@ -14,7 +14,9 @@ export const WorkExperience = () => {
         <Typography variant="companyName">
           Miracle Software Systems, Inc.
         </Typography>
-        <Typography variant="dateRange">July 2022 - Present</Typography>
+        <Typography variant="lightItalic" sx={{ fontWeight: "500" }}>
+          July 2022 - Present
+        </Typography>
       </Box>
       <Box>
         <Box
@@ -24,29 +26,32 @@ export const WorkExperience = () => {
             flexWrap: "wrap"
           }}
         >
-          <Typography variant="projectName">
-            Project:{" "}
-            <Typography variant="projectCompanyName">
-              Walmart Global Governance
-            </Typography>{" "}
-            - Bentonville, Arkansas, USA
+          <Typography variant="projectCompanyName">
+            Walmart Global Governance
           </Typography>
-          <Typography variant="dateRange">December 2023 - Present</Typography>
+          <Typography variant="lightItalic">
+            Bentonville, Arkansas, USA
+          </Typography>
         </Box>
-        <Typography variant="projectRole">
-          Role:{" "}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap"
+          }}
+        >
           <Typography variant="projectRoleName">
-            Lead Full Stack Developer
+            Full Stack Developer
           </Typography>
-        </Typography>
+          <Typography variant="lightItalic">December 2023 - Present</Typography>
+        </Box>
         <Box>
           <Typography variant="body1">
             <ul>
               <li>
-                Led and managed a team of 4 developers, coordinating efforts
-                across the full technology stack, enhancing team productivity
-                and project delivery through effective leadership and agile
-                practices.
+                Collaborated with back-end and front-end engineers, employing a
+                broad range of technologies to develop an end-to- end
+                application for investigators.
               </li>
               <li>
                 Implemented the front-end interface using React and MUI,
@@ -83,21 +88,23 @@ export const WorkExperience = () => {
             flexWrap: "wrap"
           }}
         >
-          <Typography variant="projectName">
-            Project:{" "}
-            <Typography variant="projectCompanyName">
-              Warehouse Management Application
-            </Typography>{" "}
-            - Novi, Michigan, USA
+          <Typography variant="projectCompanyName">
+            Warehouse Management Application
           </Typography>
-          <Typography variant="dateRange">
+          <Typography variant="lightItalic">Novi, Michigan, USA</Typography>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap"
+          }}
+        >
+          <Typography variant="projectRoleName">Back-End Developer</Typography>
+          <Typography variant="lightItalic">
             March 2022 - December 2023
           </Typography>
         </Box>
-        <Typography variant="projectRole">
-          Role:{" "}
-          <Typography variant="projectRoleName">Back-End Developer</Typography>
-        </Typography>
         <Box>
           <Typography variant="body1">
             <ul>
@@ -131,19 +138,21 @@ export const WorkExperience = () => {
             flexWrap: "wrap"
           }}
         >
-          <Typography variant="projectName">
-            Project:{" "}
-            <Typography variant="projectCompanyName">
-              Heubach Cloud Migration
-            </Typography>{" "}
-            - Novi, Michigan, USA
+          <Typography variant="projectCompanyName">
+            Heubach Cloud Migration
           </Typography>
-          <Typography variant="dateRange">July 2022 - March 2023</Typography>
+          <Typography variant="lightItalic">Novi, Michigan, USA</Typography>
         </Box>
-        <Typography variant="projectRole">
-          Role:{" "}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap"
+          }}
+        >
           <Typography variant="projectRoleName">Cloud Developer</Typography>
-        </Typography>
+          <Typography variant="lightItalic">July 2022 - March 2023</Typography>
+        </Box>
         <Box>
           <Typography variant="body1">
             <ul>

@@ -11,10 +11,10 @@ export const Home = () => {
   return (
     <Box>
       <AboutMe />
-      <Education />
-      <Certifications />
-      <Skills />
       <WorkExperience />
+      <Skills />
+      <Certifications />
+      <Education />
       <ContactMe />
     </Box>
   );

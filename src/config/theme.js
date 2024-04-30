@@ -44,7 +44,7 @@ export const lightTheme = createTheme({
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1.1rem"
     },
-    dateRange: {
+    lightItalic: {
       fontFamily: "Roboto, Arial, sans-serif",
       fontSize: "1rem",
       fontStyle: "italic",
