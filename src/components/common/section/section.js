@@ -10,6 +10,8 @@ const Section = ({
     <Box
       sx={{
         background: `linear-gradient(to bottom, ${startingColor} 75%, ${endingColor} 100%)`,
+        border: "solid black 1px",
+        padding: "1rem",
         minHeight: "100vh"
       }}
     >

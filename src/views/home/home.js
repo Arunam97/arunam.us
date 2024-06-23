@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-import Section from "../../components/section/section";
+import Section from "../../components/common/section/section";
 import AboutMeSectionContent from "../about-me-section-content/about-me-section-content";
 import SkillsSectionContent from "../skills-section-content/skills-section-content";
 import WorkExperienceSectionContent from "../work-experience-section-content/work-experience-section-content";
@@ -13,7 +13,7 @@ export const Home = () => {
   const { ARUNAM_GUPTA, SKILLS, WORK_EXPERIENCE, PROJECTS } = labels;
   const {
     COLORS: {
-      LIGHT_MODE: { LIGHT_CYAN, PLATINUM, PERIWINKLE, CELESTE }
+      LIGHT_MODE: { BACKGROUND1, BACKGROUND2, BACKGROUND3, BACKGROUND4 }
     }
   } = constants;
 
@@ -22,26 +22,26 @@ export const Home = () => {
       <Section
         title={ARUNAM_GUPTA}
         Content={AboutMeSectionContent}
-        startingColor={LIGHT_CYAN}
-        endingColor={PLATINUM}
+        startingColor={BACKGROUND1}
+        endingColor={BACKGROUND2}
       />
       <Section
         title={SKILLS}
         Content={SkillsSectionContent}
-        startingColor={PLATINUM}
-        endingColor={PERIWINKLE}
+        startingColor={BACKGROUND2}
+        endingColor={BACKGROUND3}
       />
       <Section
         title={WORK_EXPERIENCE}
         Content={WorkExperienceSectionContent}
-        startingColor={PERIWINKLE}
-        endingColor={CELESTE}
+        startingColor={BACKGROUND3}
+        endingColor={BACKGROUND4}
       />
       <Section
         title={PROJECTS}
         Content={ProjectsSectionContent}
-        startingColor={CELESTE}
-        endingColor={CELESTE}
+        startingColor={BACKGROUND4}
+        endingColor={BACKGROUND4}
       />
     </Box>
   );
