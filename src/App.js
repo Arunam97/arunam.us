@@ -1,8 +1,10 @@
 import React from "react";
 import { ThemeProvider } from "@mui/material";
-import { lightTheme } from "./config/theme";
 
-import { Home } from "./views/home";
+import { Home } from "./views/home/home";
+
+import { lightTheme } from "./config/theme";
+import "./styles.css";
 
 function App() {
   return (
