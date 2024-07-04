@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 
 import Section from "../../components/common/section/section";
-import AboutMeSectionContent from "../about-me-section-content/about-me-section-content";
-import SkillsSectionContent from "../skills-section-content/skills-section-content";
-import WorkExperienceSectionContent from "../work-experience-section-content/work-experience-section-content";
-import ProjectsSectionContent from "../projects-section-content/projects-section-content";
+import AboutMeSectionContent from "../about-me/about-me";
+import SkillsSectionContent from "../skills/skills";
+import WorkExperienceSectionContent from "../work-experience/work-experience";
+import ProjectsSectionContent from "../projects/projects";
 
 import { labels } from "../../constants/labels";
 import { constants } from "../../constants/constants";
