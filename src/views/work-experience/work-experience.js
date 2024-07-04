@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-const WorkExperienceSectionContent = () => {
+const WorkExperience = () => {
   return (
     <Typography>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -18,4 +18,4 @@ const WorkExperienceSectionContent = () => {
     </Typography>
   );
 };
-export default WorkExperienceSectionContent;
+export default WorkExperience;

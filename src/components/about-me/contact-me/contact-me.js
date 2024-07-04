@@ -1,14 +1,16 @@
-import { Box } from "@mui/material";
+import { Avatar, Box } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
+
 import Link from "../../common/link/link";
-import LogoLink from "../../common/logo-link/logo-link";
-import linkedIn from "../../../images/linkedIn.png";
+
+import linkedin from "../../../images/linkedin.png";
+import github from "../../../images/github.png";
+import leetcode from "../../../images/leetcode.png";
 
 const ContactMe = () => {
   return (
     <Box
       sx={{
-        border: "solid green",
         display: "flex",
         flexDirection: "column",
         gap: "0.5rem"
@@ -16,30 +18,68 @@ const ContactMe = () => {
     >
       <Box
         sx={{
-          display: "flex",
-          flexWrap: "nowrap",
-          alignItems: "center"
+          display: "flex"
         }}
       >
         <EmailIcon sx={{ marginRight: "4px" }} />
         <Link
-          href="mailto:https://www.youracclaim.com/badges/8b0e2e5f-0a2a-4b5e-8b1d-8b6b1f5c1d4b/public_url"
+          href="mailto:arunamgupta97@gmail.com"
           text="arunamgupta97@gmail.com"
+          textStyle={{ fontWeight: "600" }}
+          iconStyle={{ display: "none" }}
+        />
+      </Box>
+
+      <Box
+        sx={{
+          display: "flex"
+        }}
+      >
+        <Avatar
+          alt="LinkedIn"
+          src={linkedin}
+          sx={{ width: "1.5rem", height: "1.5rem", marginRight: "4px" }}
+        />
+        <Link
+          href="https://www.linkedin.com/in/arunamgupta/"
+          text="LinkedIn"
           textStyle={{ fontWeight: "600" }}
           iconStyle={{ display: "none" }}
         />
       </Box>
       <Box
         sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "flex-start",
-          alignItems: "flex-start"
+          display: "flex"
         }}
       >
-        <EmailIcon sx={{ marginRight: "4px" }} />
-        <EmailIcon sx={{ marginRight: "4px" }} />
-        <EmailIcon sx={{ marginRight: "4px" }} />
+        <Avatar
+          alt="GitHub"
+          src={github}
+          sx={{ width: "1.5rem", height: "1.5rem", marginRight: "4px" }}
+        />
+        <Link
+          href="https://github.com/Arunam97"
+          text="GitHub"
+          textStyle={{ fontWeight: "600" }}
+          iconStyle={{ display: "none" }}
+        />
+      </Box>
+      <Box
+        sx={{
+          display: "flex"
+        }}
+      >
+        <Avatar
+          alt="LeetCode"
+          src={leetcode}
+          sx={{ width: "1.5rem", height: "1.5rem", marginRight: "4px" }}
+        />
+        <Link
+          href="https://leetcode.com/u/arunam/"
+          text="LeetCode"
+          textStyle={{ fontWeight: "600" }}
+          iconStyle={{ display: "none" }}
+        />
       </Box>
     </Box>
   );

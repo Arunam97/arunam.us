@@ -3,11 +3,10 @@ import SchoolIcon from "@mui/icons-material/School";
 
 const Education = () => {
   return (
-    <Box sx={{ display: "flex", border: "solid green" }}>
+    <Box sx={{ display: "flex" }}>
       <SchoolIcon sx={{ marginRight: "4px" }} />
       <Box
         sx={{
-          width: "100%",
           display: "flex",
           flexDirection: "column"
         }}

@@ -5,11 +5,10 @@ import Link from "../../common/link/link";
 
 const Certification = () => {
   return (
-    <Box sx={{ display: "flex", border: "solid green" }}>
+    <Box sx={{ display: "flex" }}>
       <WorkspacePremiumIcon sx={{ marginRight: "4px" }} />
       <Box
         sx={{
-          width: "100%",
           display: "flex",
           flexDirection: "column"
         }}
@@ -18,7 +17,7 @@ const Certification = () => {
           AWS Certified Developer - Associate
         </Typography>
         <Link
-          href="https://www.youracclaim.com/badges/8b0e2e5f-0a2a-4b5e-8b1d-8b6b1f5c1d4b/public_url"
+          href="https://www.credly.com/badges/602f8887-82dd-4c3f-9bf9-0f5c7a563af2/public_url"
           text="View Credential"
           variant="subtitle2"
           textStyle={{ fontWeight: "600" }}

@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-const SkillsSectionContent = () => {
+const Skills = () => {
   return (
     <Typography>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -18,4 +18,4 @@ const SkillsSectionContent = () => {
     </Typography>
   );
 };
-export default SkillsSectionContent;
+export default Skills;

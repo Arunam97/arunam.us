@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-const ProjectsSectionContent = () => {
+const Projects = () => {
   return (
     <Typography>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -18,4 +18,4 @@ const ProjectsSectionContent = () => {
     </Typography>
   );
 };
-export default ProjectsSectionContent;
+export default Projects;
