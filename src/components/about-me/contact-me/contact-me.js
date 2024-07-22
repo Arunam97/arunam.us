@@ -25,6 +25,7 @@ const ContactMe = () => {
         <Link
           href="mailto:arunamgupta97@gmail.com"
           text="arunamgupta97@gmail.com"
+          variant="body2"
           textStyle={{ fontWeight: "600" }}
           iconStyle={{ display: "none" }}
         />
@@ -43,8 +44,9 @@ const ContactMe = () => {
         <Link
           href="https://www.linkedin.com/in/arunamgupta/"
           text="LinkedIn"
+          variant="body2"
           textStyle={{ fontWeight: "600" }}
-          iconStyle={{ display: "none" }}
+          iconStyle={{ fontSize: "16px" }}
         />
       </Box>
       <Box
@@ -60,8 +62,9 @@ const ContactMe = () => {
         <Link
           href="https://github.com/Arunam97"
           text="GitHub"
+          variant="body2"
           textStyle={{ fontWeight: "600" }}
-          iconStyle={{ display: "none" }}
+          iconStyle={{ fontSize: "16px" }}
         />
       </Box>
       <Box
@@ -77,8 +80,9 @@ const ContactMe = () => {
         <Link
           href="https://leetcode.com/u/arunam/"
           text="LeetCode"
+          variant="body2"
           textStyle={{ fontWeight: "600" }}
-          iconStyle={{ display: "none" }}
+          iconStyle={{ fontSize: "16px" }}
         />
       </Box>
     </Box>

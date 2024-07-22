@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 
 const Section = ({
-  title = "Default Header",
+  title,
   Content = () => {},
   startingColor = "white",
   endingColor = "white",
@@ -11,9 +11,9 @@ const Section = ({
     <Box
       sx={{
         background: `linear-gradient(to bottom, ${startingColor} 75%, ${endingColor} 100%)`,
-        border: "solid black 1px",
-        padding: "2rem",
-        minHeight: "97vh",
+        border: "solid lightgrey 1px",
+        padding: "5vh",
+        minHeight: "90vh",
         display: "flex",
         flexDirection: "column",
         judtifyContent: "center",
@@ -21,9 +21,7 @@ const Section = ({
         ...sx
       }}
     >
-      <Typography variant="h3" sx={{ marginBottom: "2rem" }}>
-        {title}
-      </Typography>
+      <Typography variant="h1">{title}</Typography>
       <Content />
     </Box>
   );

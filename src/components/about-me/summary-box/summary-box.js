@@ -9,7 +9,7 @@ const SummaryBox = () => {
     <Box
       sx={{
         display: "flex",
-        flexWrap: "nowrap",
+        flexWrap: "wrap",
         gap: "2rem"
       }}
     >

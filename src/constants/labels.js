@@ -1,5 +1,5 @@
 export const labels = {
-  ARUNAM_GUPTA: "Arunam Gupta",
+  ABOUT_ME: "About Me",
   SKILLS: "Skills",
   WORK_EXPERIENCE: "Work Experience",
   PROJECTS: "Projects"

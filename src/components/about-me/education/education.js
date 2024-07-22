@@ -4,16 +4,14 @@ import SchoolIcon from "@mui/icons-material/School";
 const Education = () => {
   return (
     <Box sx={{ display: "flex" }}>
-      <SchoolIcon sx={{ marginRight: "4px" }} />
+      <SchoolIcon sx={{ marginRight: "6px", fontSize: "20px" }} />
       <Box
         sx={{
           display: "flex",
           flexDirection: "column"
         }}
       >
-        <Typography sx={{ fontWeight: "600" }}>
-          University of Maryland
-        </Typography>
+        <Typography variant="subtitle1">University of Maryland</Typography>
         <Typography variant="subtitle2">B.Sc. in Computer Science</Typography>
       </Box>
     </Box>

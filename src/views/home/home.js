@@ -9,11 +9,11 @@ import Projects from "../projects/projects";
 import { labels } from "../../constants/labels";
 
 export const Home = () => {
-  const { ARUNAM_GUPTA, SKILLS, WORK_EXPERIENCE, PROJECTS } = labels;
+  const { ABOUT_ME, SKILLS, WORK_EXPERIENCE, PROJECTS } = labels;
 
   return (
     <Box>
-      <Section title={ARUNAM_GUPTA} Content={AboutMe} />
+      <Section title={ABOUT_ME} Content={AboutMe} />
       <Section title={SKILLS} Content={Skills} />
       <Section title={WORK_EXPERIENCE} Content={WorkExperience} />
       <Section title={PROJECTS} Content={Projects} />
