@@ -3,7 +3,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 import Link from "../../common/link/link";
 
-import linkedin from "../../../images/linkedin.png";
+import linkedin from "../../../images/linkedIn.png";
 import github from "../../../images/github.png";
 import leetcode from "../../../images/leetcode.png";
 
