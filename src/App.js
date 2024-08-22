@@ -1,14 +1,14 @@
 import React from "react";
 import { ThemeProvider } from "@mui/material";
 
-import { Home } from "./views/home/home";
+import Home from "./components/home/home";
 
-import { lightTheme } from "./config/theme";
+import { theme } from "./config/theme";
 import "./styles.css";
 
 function App() {
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={theme}>
       <Home />
     </ThemeProvider>
   );
